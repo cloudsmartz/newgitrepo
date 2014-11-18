@@ -18,7 +18,7 @@ public static Singleton getInstance(int priorityCount) throws InterruptedExcepti
 
    }else{
 	   System.out.println("holds lock in else condition====="+Thread.holdsLock(_instance));
-	   System.out.println("instance is already created");
+	   System.out.println("instance is already created by above if condition");
    }
    return _instance;
 	}
